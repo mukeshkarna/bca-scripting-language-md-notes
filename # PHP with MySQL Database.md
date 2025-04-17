@@ -964,16 +964,6 @@ SELECT * FROM products WHERE category = 'Electronics';
 | < | Less than | `WHERE price < 50` |
 | >= | Greater than or equal | `WHERE age >= 18` |
 | <= | Less than or equal | `WHERE weight <= 70` |
-| != or <> | Not
-
-
-| Operator | Description | Example |
-|----------|-------------|---------|
-| = | Equal | `WHERE id = 5` |
-| > | Greater than | `WHERE price > 100` |
-| < | Less than | `WHERE price < 50` |
-| >= | Greater than or equal | `WHERE age >= 18` |
-| <= | Less than or equal | `WHERE weight <= 70` |
 | != or <> | Not equal | `WHERE status != 'inactive'` |
 | BETWEEN | Between a range | `WHERE price BETWEEN 10 AND 50` |
 | LIKE | Pattern matching | `WHERE name LIKE 'A%'` |
